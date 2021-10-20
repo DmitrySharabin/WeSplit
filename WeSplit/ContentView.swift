@@ -40,7 +40,8 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text(checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))            }
+                    Text(checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                }
             }
             .navigationTitle("WeSplit")
         }
